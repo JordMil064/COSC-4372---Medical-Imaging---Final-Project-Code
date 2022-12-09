@@ -97,7 +97,7 @@ for h in range(0, 24):
     print(finishtime - startTime)     
     
     #totals and finds the average for the times to compare to
-    totalNum = totalNum (finishtime - startTime)
+    totalNum = totalNum + (finishtime - startTime)
     average = totalNum / 24
 
     # sums ups both the passing and failing times
