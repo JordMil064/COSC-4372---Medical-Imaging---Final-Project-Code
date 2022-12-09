@@ -11,3 +11,6 @@ For MedImagingProjectCode.py, output should look like:
 
 
 For MedImagingProjectEndoscopy.py output should look like: 
+
+
+![image](https://user-images.githubusercontent.com/73365894/206628182-3142fdc2-b8a3-4644-b682-abfe81fe83bb.png)
