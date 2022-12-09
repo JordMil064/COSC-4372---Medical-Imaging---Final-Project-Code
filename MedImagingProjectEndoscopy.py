@@ -36,6 +36,7 @@ actualtime = 0
 
 passed = 0
 failed = 0
+totalNum = 0
 
 # repeats for 24 times
 for h in range(0, 24):
@@ -93,12 +94,15 @@ for h in range(0, 24):
                 finishtime = time.time()
 
     # calculates execution time         
-    print(finishtime - startTime)        
+    print(finishtime - startTime)     
+    
+    totalNum = totalNum (finishtime - startTime)
+    average = totalNum / 24
 
     # sums ups both the passing and failing times
-    if((finishtime - startTime) < 7.5):
+    if((finishtime - startTime) < average):
         passed = passed + 1
-    elif((finishtime - startTime) >= 7.5):
+    elif((finishtime - startTime) >= average):
         failed = failed + 1
 
 # outputs results
