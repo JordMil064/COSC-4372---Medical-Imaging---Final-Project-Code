@@ -6,6 +6,8 @@ In order to run the two files to see output, either directly copy and paste the 
 
 For MedImagingProjectCode.py, output should look like: 
 
+![medImage1](https://user-images.githubusercontent.com/73365894/206624760-2436665b-0a35-47d1-966a-4d9a4b5667ad.png)
+![medimage2](https://user-images.githubusercontent.com/73365894/206624761-6ab128ff-2abf-4439-b386-b426527e7e0e.png)
 
 
 For MedImagingProjectEndoscopy.py output should look like: 
