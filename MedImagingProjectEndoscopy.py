@@ -96,6 +96,7 @@ for h in range(0, 24):
     # calculates execution time         
     print(finishtime - startTime)     
     
+    #totals and finds the average for the times to compare to
     totalNum = totalNum (finishtime - startTime)
     average = totalNum / 24
 
